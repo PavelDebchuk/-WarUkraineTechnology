@@ -1,0 +1,13 @@
+.s {
+  margin-left: 50px;
+  list-style-type: none;
+  text-transform: capitalize;
+}
+
+.p {
+  padding: 15px 0 0 0;
+}
+
+button {
+  margin: 0 0 0 300px;
+}
