@@ -1,6 +1,7 @@
 import React from "react";
 import "./MainStyled.css";
 import data from "../Data/Data.ts";
+import Filter from "components/Filter";
 
 const Main = () => {
   const addImg = React.createRef();
@@ -35,43 +36,13 @@ const Main = () => {
   };
 
   return (
-    <div>
-      <p>Зараз в нашій базі знаходиться {data.length} одиниці техніки</p>
-      <ul className="s">
-        <li>
-          <p className="p">Фото:</p>
-          <input type="text" ref={addImg} />
-        </li>
-        <li>
-          <p>Тип:</p>
-          <input type="text" ref={addType} />
-        </li>
-        <li>
-          <p className="p">Модель:</p>
-          <input type="text" ref={addModel} />
-        </li>
-        <li>
-          <p className="p">Рік випуску:</p>
-          <input type="number" ref={addYears} />
-        </li>
-        <li>
-          <p className="p">Країна</p>
-          <input type="text" ref={addCountry} />
-        </li>
-        <li>
-          <p className="p">Екіпаж</p>
-          <input type="number" ref={addCrev} />
-        </li>
-        <li>
-          <p className="p">посилання в вікіпедію</p>
-          <input type="text/" ref={addWiki} />
-        </li>
-      </ul>
-      <button onClick={eVe} type="button">
-        Зберегти
-      </button>
-      <div>
-        {data.map((dat) => (
+    <>
+      <div className="Main_wraper">
+        <div className="Filter_block">
+          <Filter/>
+        </div>
+        <div>
+          {data.map((dat) => (
           <ul>
             <li>
               <img src={dat.images} alt={dat.model} width="300" />
@@ -86,8 +57,9 @@ const Main = () => {
             </li>
           </ul>
         ))}
+        </div>
       </div>
-    </div>
+      </>
   );
 };
 

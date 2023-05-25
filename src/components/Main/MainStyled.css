@@ -8,6 +8,14 @@
   padding: 15px 0 0 0;
 }
 
-button {
-  margin: 0 0 0 300px;
+.Main_wraper {
+  position: relative;
+}
+
+.Filter_block {
+  position: absolute;
+  left: 0;
+  width: 50px;
+  padding: 10px;
+  background-color: cadetblue;
 }
