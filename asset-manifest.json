@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/WarUkraineTechnology/static/css/main.38dfcc92.css",
-    "main.js": "/WarUkraineTechnology/static/js/main.d4a562aa.js",
+    "main.css": "/WarUkraineTechnology/static/css/main.ee922373.css",
+    "main.js": "/WarUkraineTechnology/static/js/main.55046745.js",
     "index.html": "/WarUkraineTechnology/index.html",
-    "main.38dfcc92.css.map": "/WarUkraineTechnology/static/css/main.38dfcc92.css.map",
-    "main.d4a562aa.js.map": "/WarUkraineTechnology/static/js/main.d4a562aa.js.map"
+    "main.ee922373.css.map": "/WarUkraineTechnology/static/css/main.ee922373.css.map",
+    "main.55046745.js.map": "/WarUkraineTechnology/static/js/main.55046745.js.map"
   },
   "entrypoints": [
-    "static/css/main.38dfcc92.css",
-    "static/js/main.d4a562aa.js"
+    "static/css/main.ee922373.css",
+    "static/js/main.55046745.js"
   ]
 }
