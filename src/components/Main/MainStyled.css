@@ -18,7 +18,7 @@
   left: 0;
   /* width: 50px; */
   padding: 10px;
-  background-color: cadetblue;
+  background-color: rgba(36, 33, 33, 0.715);
 }
 
 .Block_list {
@@ -26,4 +26,23 @@
   flex-wrap: wrap;
   justify-content: space-around;
   width: 100%;
+  text-transform: capitalize;
+}
+
+.list_item {
+  color: #8c8c7c;
+  font-size: 15px;
+  margin: 6px 0;
+  font-family: 'Roboto';
+  /* text-decoration: underline #b34400c7; */
+  border-bottom: 1px solid rgba(255, 251, 237, 0.1);
+  padding: 1px 0;
+}
+
+.item_link_wili {
+  color: #5a9444;
+}
+
+.data_item {
+  float: right;
 }

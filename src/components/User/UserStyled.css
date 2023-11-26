@@ -1,0 +1,53 @@
+.user_block {
+  display: inline-flex;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.buttonModal {
+  background: red;
+  cursor: pointer;
+}
+
+.Modal_window {
+  width: 800px;
+  height: 400px;
+  margin: 10% 25%;
+  background: silver;
+  position: absolute;
+  border: 2px solid red;
+  box-shadow: -9px 13px 89px 130px #000000ab;
+}
+
+.clousModal {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  font-size: 20px;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.clousModal:hover {
+  color: red;
+  background: blue;
+}
+
+h1 {
+  text-align: center;
+}
+
+.user_form {
+  margin: 0 40%;
+  padding-top: 50px;
+}
+
+.form_button {
+  margin-top: 30px;
+  text-transform: capitalize;
+  border-radius: 5px;
+  padding: 4px 10px;
+  background: red;
+}

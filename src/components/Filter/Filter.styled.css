@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2? family= Roboto & display=swap');
 
 .Filter_list {
-  font-size: 16px;
+  font-size: 18px;
   list-style-type: none;
   font-family: Roboto;
+  border: solid 5px silver;
+  padding: 10px;
 }
