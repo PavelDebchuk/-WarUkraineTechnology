@@ -43,9 +43,13 @@
   /* background: rgba(51, 51, 49, 0.19); */
 }
 
-.Header_item:hover {
+.Header_item_color:hover {
   color: rgba(231, 32, 25, 0.56);
   cursor: pointer;
+}
+
+.Header_item_color {
+  color: white;
 }
 
 .Header_item::before {

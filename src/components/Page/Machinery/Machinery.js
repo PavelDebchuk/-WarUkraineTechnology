@@ -1,9 +1,9 @@
 import React from 'react';
-import './MainStyled.css';
-import data from '../Data/Data.ts';
+import './MachineryStyled.css';
+import data from '../../Data/Data.ts';
 import Filter from 'components/Filter';
 
-const Main = () => {
+const Machinery = () => {
   // data.map(g => {
   //   if (g.type === 'літак') {
   //     console.log(g.model);
@@ -60,4 +60,4 @@ const Main = () => {
   );
 };
 
-export default Main;
+export default Machinery;
