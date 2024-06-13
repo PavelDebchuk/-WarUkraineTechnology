@@ -1,5 +1,9 @@
 .home_block {
-  width: 100%;
   height: 100%;
   text-align: center;
+  margin: 0 100px;
+}
+
+p {
+  font-size: 22px;
 }

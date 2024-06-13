@@ -1,0 +1,14 @@
+.WarPage_block {
+  height: 100%;
+  text-align: center;
+  margin: 0 100px;
+}
+
+p {
+  font-size: 22px;
+}
+
+.WarPage_block_img {
+  margin: 0 auto;
+  padding-top: 40px;
+}

@@ -10,7 +10,7 @@ const data = [
   // },
   {
     images:
-      'https://s3.eu-central-1.amazonaws.com/img.hromadske.ua/posts/259706/pt91twardymspo09jpg/large.jpg',
+      'https://img.pravda.com/images/doc/e/0/e00346e-tank-pt-91-twardy.avif',
     type: 'танк',
     model: 'PT-91',
     yearOfIssue: '1995',

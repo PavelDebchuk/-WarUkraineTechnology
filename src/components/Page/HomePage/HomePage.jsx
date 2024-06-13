@@ -4,10 +4,7 @@ import './HomePageStyles.css';
 const HomePage = () => {
   return (
     <div className="home_block">
-      <h2>
-        Вас вітає головна сторінка цього проекту, присвяченого війні росії та
-        України
-      </h2>
+      <h2>df</h2>
     </div>
   );
 };

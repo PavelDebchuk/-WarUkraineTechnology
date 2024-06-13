@@ -1,0 +1,21 @@
+.Alies_block {
+  height: 100%;
+  text-align: center;
+  margin: 0 100px;
+}
+
+p {
+  font-size: 22px;
+}
+
+.top_top {
+  position: fixed;
+  right: 20px;
+  background: red;
+  padding: 10px;
+  border-radius: 12px;
+}
+
+.Alies_block_list {
+  list-style-type: none;
+}
